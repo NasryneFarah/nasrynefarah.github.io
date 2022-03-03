@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700;800;900&display=swap');
+
+
+/*BARRE DE NAVIGATION*/
+
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+}
+
+header div{
+    display: inline-block;
+}
+
+#menu{
+    width: 90%;
+    text-align: right;
+}
+
+#logo a{
+   text-decoration: none;
+   color: black;
+   font-weight: 600;
+   font-size: 16px;
+}
+
+main section .salutation{
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+main section .profession{
+    text-align: center;
+    font-weight: 600;
+    font-size: 45px;
+}
+
+
+
+
+
+
+
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 20px;
+    cursor: pointer;
+}
+
+ul li a{
+    color: #93512F;
+    text-decoration: none;
+}
+
+ul li a:hover{
+    color: #D8B9B0;
+}
+
