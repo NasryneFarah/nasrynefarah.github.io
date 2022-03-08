@@ -1,13 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700;800;900&display=swap');
 
 
-/*BARRE DE NAVIGATION*/
+
 
 
 body{
     font-family: 'Poppins', sans-serif;
     font-size: 12px;
 }
+
+/*BARRE DE NAVIGATION*/
 
 header div{
     display: inline-block;
@@ -25,25 +27,6 @@ header div{
    font-size: 16px;
 }
 
-main section .salutation{
-    text-align: center;
-    font-size: 14px;
-    font-weight: 500;
-}
-
-main section .profession{
-    text-align: center;
-    font-weight: 600;
-    font-size: 45px;
-}
-
-
-
-
-
-
-
-
 nav ul li{
     list-style-type: none;
     display: inline-block;
@@ -59,4 +42,202 @@ ul li a{
 ul li a:hover{
     color: #D8B9B0;
 }
+
+/*FIN BARRE DE NAVIGATION*/
+
+/*--------MAIN-----------*/
+
+main section .salutation{
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+main section .profession{
+    text-align: center;
+    font-weight: 600;
+    font-size: 45px;
+}
+
+main section .paragraph{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.btn{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 2px;
+    padding: 7px 10px;
+    cursor: pointer;
+    transition: all 0.9s;
+}
+
+.btn:hover{
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+.bouton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.first-tittle{
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 50px;
+    margin-left: 61px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+
+.about-me{
+    padding-top: 50px;
+}
+
+.second-tittle{
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 50px;
+    margin-left: 61px;
+}
+
+/*.image{
+    padding-top: 50px;
+    margin-left: 2px;
+    margin-right: 2px;
+    border: 2px  solid black;
+}
+
+.image img{
+    position: relative;
+    padding-left: 20px;
+    padding-bottom: 50px;
+}*/
+
+.image{
+    position: absolute;
+    padding: 25px;
+}
+
+.information{
+    position: relative;
+    z-index: 5;
+    top: 125px;
+}
+
+.statut{
+    position: relative;
+     text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+ .name{
+     padding-top: 10px;
+    font-size: 15px;
+    position: relative;
+    text-align: center;
+}
+
+.three-tittle{
+    text-align: center;
+    align-items: center;
+    padding-top: 30px;
+    padding-left: 336px;
+    padding-right: 10px;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    padding-top: 155px;
+}
+
+.btn-secondary{
+    font-size: 17px;
+    font-weight: 600;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+    padding: 10px 14px;
+    cursor: pointer;
+    transition: all 0.9s;
+}
+
+
+.contact{
+    padding-top: 50px;
+}
+
+.tittle{
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 61px;
+}
+
+.icon{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 35px;
+}
+
+.icon a i{
+    color: black;
+    transition: all 0.6s ease 0S;
+}
+
+.icon a i:hover{
+    color: rgb(73, 140, 160);
+}
+
+hr{
+   color: #000000;
+   border: 2px solid black;
+   width: 700px;
+   position: relative;
+   left: 20%;
+   margin-top:50px ;
+}
+
+.footer{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+
+/*.three-tittle{
+    position: relative;
+    text-align: center;
+    z-index: 5;
+    top: -245px;
+    padding-left: 344px;
+
+}*/
+
+
+
+
+
+
+
+
+
 
